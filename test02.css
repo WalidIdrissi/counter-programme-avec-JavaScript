@@ -1,0 +1,56 @@
+/* Centrer le conteneur principal et lui donner un fond */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Style du conteneur du compteur */
+.counter-container {
+    background-color: #e0f7fa;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styliser le compteur */
+#conteur {
+    font-size: 80px;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+/* Styliser les boutons */
+.button-group button {
+    font-size: 24px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Couleurs spécifiques des boutons */
+#increment {
+    background-color: #4caf50;
+}
+
+#reset {
+    background-color: #ff9800;
+}
+
+#decrement {
+    background-color: #f44336;
+}
+
+/* Effet de survol */
+.button-group button:hover {
+    opacity: 0.8;
+}
